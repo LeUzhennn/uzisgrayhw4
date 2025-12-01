@@ -76,3 +76,13 @@
 - 修改了 `app.py` 中的結果顯示邏輯。
 - 針對西方占卜的結果，特別使用了 `st.columns` 來建立一個兩欄的佈局。
 - 將塔羅牌圖片放在左邊的欄位，並將包含詳細說明的 `st.expander` 放在右邊的欄位。
+
+---
+
+### 8. 新增參考資料
+
+**使用者：** 幫我把 [https://github.com/yenlung/AI-Demo/...ipynb](https://github.com/yenlung/AI-Demo/blob/master/%E3%80%90Demo06%E3%80%91%E7%94%A8_RAG_%E6%89%93%E9%80%A0%E5%BF%83%E9%9D%88%E8%99%9F%E6%96%B9%E7%B1%A4%E6%A9%9F%E5%99%A8%E4%BA%BA.ipynb) 寫進 readme.md，我是引用他的。
+
+**Gemini：**
+- 讀取 `README.md` 檔案。
+- 在檔案末尾新增了一個「參考資料」區塊，並將使用者提供的連結加入其中。

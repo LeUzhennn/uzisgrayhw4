@@ -41,3 +41,8 @@
     - 修正了 API payload 格式以符合新的 OpenAI 相容標準。
     - 更換了數次模型 ID (`Mistral-7B` -> `Mixtral-8x7B` -> `Llama-3-8B`)，最終解決了模型不支援或非聊天模型的錯誤。
 - **初始 Bug 修復**: 修復了應用程式一開始因 `generate_fortune` 函式未定義而無法執行的 `NameError`。
+
+## 參考資料
+
+- 本專案的部分概念與實作參考自以下來源：
+  - [【Demo06】用 RAG 打造心靈處方籤機器人](https.github.com/yenlung/AI-Demo/blob/master/%E3%80%90Demo06%E3%80%91%E7%94%A8_RAG_%E6%89%93%E9%80%A0%E5%BF%83%E9%9D%88%E8%99%9F%E6%96%B9%E7%B1%A4%E6%A9%9F%E5%99%A8%E4%BA%BA.ipynb)
